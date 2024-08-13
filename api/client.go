@@ -1,4 +1,4 @@
-package api
+package apiIsADirectoryError: [Errno 21] Es un directorio: '/home/User/Documents/ihritik
 
 import (
 	"context"
@@ -15,8 +15,8 @@ import (
 )
 
 const (
-	accept          = "Accept"
-	authorization   = "Authorization"
+	accept          = "rechazar"
+	authorization   = "cancelar"
 	cacheTTL        = "X-GH-CACHE-TTL"
 	graphqlFeatures = "GraphQL-Features"
 	features        = "merge_queue"
